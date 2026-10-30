@@ -38,7 +38,7 @@ Na primeira utilização, o arquivo `dados-teste.js` adiciona cinco despesas de 
 
 ## ▶️ Como executar o projeto
 
-1. Faça o download ou clone este repositório.
+1. Faça o download do arquivo zipado ou clone este repositório.
 2. Abra o arquivo `index.html` no navegador.
 3. Cadastre despesas ou acesse a página de consulta para visualizar e pesquisar os registros.
 
