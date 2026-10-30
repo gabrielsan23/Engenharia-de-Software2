@@ -38,7 +38,7 @@ Backend, banco de dados remoto, contas de usuário, sincronização entre dispos
 
 | Membro | Foco | Histórias | SP |
 |---|---|---|---|
-| Arthur | Cadastro, exclusão, responsividade, paleta e ícones | US01, US02, US06, US15, US19, US24, US25 | 15 |
+| Arthur Paulo | Cadastro, exclusão, responsividade, paleta e ícones | US01, US02, US06, US15, US19, US24, US25 | 15 |
 | Jaqueline Silva | Validação, mensagens, contraste e cor | US03, US05, US22, US23 | 13 |
 | Lucas Diogo | Armazenamento, consulta e integridade | US04, US07, US08, US17, US18 | 13 |
 | Vinicius Topgian | Filtros | US09 a US14 | 14 |
