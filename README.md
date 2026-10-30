@@ -46,7 +46,7 @@ Na primeira utilização, o arquivo `dados-teste.js` adiciona cinco despesas de 
 ##Requisitos Funcionais 
 <img width="1166" height="679" alt="image" src="https://github.com/user-attachments/assets/602be27e-e987-483a-94bd-76665c41bb2b" />
 <img width="1167" height="676" alt="image" src="https://github.com/user-attachments/assets/f7fb9460-bc75-41de-9b86-a07d4a822548" />
-
+<img width="1130" height="688" alt="image" src="https://github.com/user-attachments/assets/ab644aaf-49fb-43a8-a9ed-8e346e9886fa" />
 
 
 O projeto tem como objetivo aplicar conhecimentos de desenvolvimento web, manipulação do DOM, armazenamento de dados no navegador, organização de código JavaScript e implementação de recursos de acessibilidade.
