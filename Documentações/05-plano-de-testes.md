@@ -78,13 +78,3 @@ Estes itens ainda não têm caso de teste e podem ser acrescentados ao plano:
 | RF24 | Alternar entre Cadastro e Consulta pelo menu |
 | RNF04 | Medir o tempo das operações (meta: até 2 s) |
 | RNF05 | Repetir os testes principais em Chrome, Edge e Firefox |
-
-## 6. Registro de execução (preencher com evidências)
-
-| Caso | Data | Executor | Navegador | Resultado obtido | Situação | Evidência |
-|---|---|---|---|---|---|---|
-| CT01 | | | | | | |
-| CT02 | | | | | | |
-| ... | | | | | | |
-
-**Critério de conclusão:** todos os casos executados e registrados; cada falha vira um item do tipo Bug ligado à história correspondente.
