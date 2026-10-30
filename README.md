@@ -14,7 +14,7 @@ Aplicação web desenvolvida para realizar o cadastro, a consulta e o gerenciame
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Bootstrap 4
+- Bootstrap 5
 - Font Awesome
 - LocalStorage API
 
