@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de cores | Orçamento pessoal</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script type="module" src="acessibilidade.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container"><img src="logo.png" width="50" height="35" alt="Orçamento pessoal">
+            <a class="navbar-brand" href="index.html">Orçamento pessoal</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarPreview" aria-controls="navbarPreview"
+                aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarPreview">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consulta.html">Consulta</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="preview.html">Preview de cores</a>
+                    </li>
+                </ul>
+
+                <div class="form-inline my-2 my-lg-0">
+                    <label for="tipoDaltonismo" class="text-white mr-2 mb-0">
+                        Acessibilidade de cores
+                    </label>
+
+                    <select id="tipoDaltonismo" class="form-control">
+                        <option value="normal">Cores originais</option>
+                        <option value="protanopia">Protanopia</option>
+                        <option value="deuteranopia">Deuteranopia</option>
+                        <option value="tritanopia">Tritanopia</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <h1 class="mb-3">Página de teste de cores</h1>
+
+        <p class="text-muted">
+            Selecione um tipo de daltonismo no menu superior e observe as alterações
+            nas cores dos elementos.
+        </p>
+
+        <div class="alert alert-info" role="note">
+            Esta página serve para observar uma simulação visual de cores. Ela não substitui
+            uma avaliação profissional da visão.
+        </div>
+
+        <hr>
+
+        <h2 class="h4 mb-4">Paleta de 20 cores</h2>
+
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #E53935;">
+                    <strong>Vermelho</strong><br>#E53935
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #D81B60;">
+                    <strong>Rosa</strong><br>#D81B60
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #8E24AA;">
+                    <strong>Roxo</strong><br>#8E24AA
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #5E35B1;">
+                    <strong>Violeta</strong><br>#5E35B1
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #3949AB;">
+                    <strong>Azul-índigo</strong><br>#3949AB
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #1E88E5;">
+                    <strong>Azul</strong><br>#1E88E5
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-dark" style="background-color: #4FC3F7;">
+                    <strong>Azul-claro</strong><br>#4FC3F7
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-dark" style="background-color: #00ACC1;">
+                    <strong>Ciano</strong><br>#00ACC1
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #00897B;">
+                    <strong>Verde-petróleo</strong><br>#00897B
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #43A047;">
+                    <strong>Verde</strong><br>#43A047
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-dark" style="background-color: #C0CA33;">
+                    <strong>Lima</strong><br>#C0CA33
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-dark" style="background-color: #FDD835;">
+                    <strong>Amarelo</strong><br>#FDD835
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-dark" style="background-color: #FFB300;">
+                    <strong>Âmbar</strong><br>#FFB300
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-dark" style="background-color: #FB8C00;">
+                    <strong>Laranja</strong><br>#FB8C00
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #6D4C41;">
+                    <strong>Marrom</strong><br>#6D4C41
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #757575;">
+                    <strong>Cinza</strong><br>#757575
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #263238;">
+                    <strong>Azul-acinzentado</strong><br>#263238
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-dark border" style="background-color: #F5F5F5;">
+                    <strong>Branco-gelo</strong><br>#F5F5F5
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #000000;">
+                    <strong>Preto</strong><br>#000000
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+                <div class="p-4 rounded text-white" style="background-color: #7CB342;">
+                    <strong>Verde-amarelado</strong><br>#7CB342
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <h2 class="h4 mb-4">Teste de componentes Bootstrap</h2>
+
+        <p>Observe também as alterações nas cores dos botões:</p>
+
+        <div class="mb-4">
+            <button class="btn btn-success mr-2 mb-2">Sucesso</button>
+            <button class="btn btn-danger mr-2 mb-2">Erro</button>
+            <button class="btn btn-warning mr-2 mb-2">Atenção</button>
+            <button class="btn btn-info mr-2 mb-2">Informação</button>
+            <button class="btn btn-primary mr-2 mb-2">Principal</button>
+            <button class="btn btn-secondary mr-2 mb-2">Secundário</button>
+        </div>
+
+        <h3 class="h5">Estados de despesas</h3>
+
+        <div class="mb-5">
+            <span class="badge badge-success p-2 mr-2">Pago</span>
+            <span class="badge badge-danger p-2 mr-2">Vencido</span>
+            <span class="badge badge-warning p-2 mr-2">Pendente</span>
+            <span class="badge badge-info p-2 mr-2">Informativo</span>
+        </div>
+    </main>
+</body>
+</html>
