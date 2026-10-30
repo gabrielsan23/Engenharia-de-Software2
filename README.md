@@ -8,7 +8,6 @@ Aplicação web desenvolvida para realizar o cadastro, a consulta e o gerenciame
 - **Consulta de despesas:** pesquisa por ano, mês, dia, tipo, descrição e valor.
 - **Armazenamento local:** utilização do `localStorage` para salvar os registros no navegador.
 - **Acessibilidade:** simulação de diferentes tipos de daltonismo para testar a visualização das cores.
-- **Dados para testes:** cadastro automático de cinco despesas de exemplo na primeira utilização, facilitando a demonstração das funcionalidades.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -43,6 +42,12 @@ Na primeira utilização, o arquivo `dados-teste.js` adiciona cinco despesas de 
 3. Cadastre despesas ou acesse a página de consulta para visualizar e pesquisar os registros.
 
 ## 🎯 Objetivo do projeto
+
+##Requisitos Funcionais 
+<img width="1166" height="679" alt="image" src="https://github.com/user-attachments/assets/602be27e-e987-483a-94bd-76665c41bb2b" />
+<img width="1167" height="676" alt="image" src="https://github.com/user-attachments/assets/f7fb9460-bc75-41de-9b86-a07d4a822548" />
+
+
 
 O projeto tem como objetivo aplicar conhecimentos de desenvolvimento web, manipulação do DOM, armazenamento de dados no navegador, organização de código JavaScript e implementação de recursos de acessibilidade.
 
