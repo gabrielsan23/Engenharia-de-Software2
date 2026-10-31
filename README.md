@@ -1,6 +1,6 @@
 # 💰 Orçamento Pessoal
 
-Aplicação web desenvolvida para realizar o cadastro, a consulta e o gerenciamento de despesas pessoais, permitindo ao usuário organizar seus gastos de maneira simples e prática.
+Aplicação web desenvolvida por: Gabriel Santana, Arthur Paulo, Jaqueline Neves, Lucas Diogo, Vinícius Marques e Guilherme de Oliveira  para realizar o cadastro, a consulta e o gerenciamento de despesas pessoais, permitindo ao usuário organizar seus gastos de maneira simples e prática.
 
 ## 🚀 Funcionalidades
 
