@@ -2,7 +2,7 @@
 
 Rastreabilidade entre **épicos, histórias, requisitos, regras de negócio, casos de uso, testes, bugs e responsáveis**.
 
-**Versão:** 2.1 — revisão de 30/10/2026 · **Status do documento:** Concluído (Jira: SCRUM-37)
+**Versão:** 2.2 — revisão de 30/10/2026 · **Status do documento:** Concluído (Jira: SCRUM-37)
 **Status das histórias e bugs:** todos Concluído no Jira em 30/10/2026. Os testes (CT) aguardam evidência ([Plano de Testes](05-plano-de-testes.md)).
 
 ## 1. Épicos
@@ -22,26 +22,26 @@ Rastreabilidade entre **épicos, histórias, requisitos, regras de negócio, cas
 | EP01 | US02 | SCRUM-11 | 2 | 1 | Arthur | RF02 | RN01, RN04, RN06 | CDU01 | CT01 | — | Concluído |
 | EP01 | US03 | SCRUM-12 | 5 | 1 | Jaqueline | RF03, RF04, RF09 | RN01–RN09 | CDU01 | CT02, CT03, CT04 | SCRUM-45 | Concluído |
 | EP01 | US04 | SCRUM-13 | 3 | 1 | Lucas | RF05–RF07, RNF03, RNF06 | RN10, RN11, RN23 | CDU01 | CT01, CT05 | — | Concluído |
-| EP01 | US05 | SCRUM-14 | 2 | 1 | Jaqueline | RF08, RF09, RNF08 | RN01 | CDU01 | CT01, CT02 | — | Concluído |
-| EP01 | US06 | SCRUM-15 | 1 | 1 | Arthur | RF10 | — | CDU01 | CT01 | — | Concluído |
+| EP01 | US05 | SCRUM-14 | 2 | 1 | Guilherme | RF08, RF09, RNF08 | RN01 | CDU01 | CT01, CT02 | — | Concluído |
+| EP01 | US06 | SCRUM-15 | 1 | 1 | Guilherme | RF10 | — | CDU01 | CT01 | — | Concluído |
 | EP02 | US07 | SCRUM-16 | 2 | 2 | Lucas | RF11, RF24, RNF01 | RN24 | CDU02 | CT06 | — | Concluído |
 | EP02 | US08 | SCRUM-17 | 3 | 2 | Lucas | RF12, RNF03, RNF06 | RN11, RN24 | CDU02 | CT05, CT06 | — | Concluído |
 | EP02 | US09 | SCRUM-18 | 3 | 2 | Vinicius | RF13–RF15 | RN12, RN14 | CDU03 | CT07, CT08, CT09 | SCRUM-49 | Concluído |
 | EP02 | US10 | SCRUM-19 | 2 | 2 | Vinicius | RF16 | RN12, RN15 | CDU03 | CT10 | — | Concluído |
 | EP02 | US11 | SCRUM-20 | 3 | 2 | Vinicius | RF17 | RN12, RN16 | CDU03 | CT11 | SCRUM-46 | Concluído |
-| EP02 | US12 | SCRUM-21 | 2 | 2 | Vinicius | RF18 | RN09, RN12, RN17 | CDU03 | CT12 | — | Concluído |
+| EP02 | US12 | SCRUM-21 | 2 | 2 | Guilherme | RF18 | RN09, RN12, RN17 | CDU03 | CT12 | — | Concluído |
 | EP02 | US13 | SCRUM-22 | 3 | 2 | Vinicius | RF19 | RN12, RN13 | CDU03 | CT13 | — | Concluído |
-| EP02 | US14 | SCRUM-23 | 1 | 2 | Vinicius | RF25 | RN22 | CDU03 | CT14 | SCRUM-48 | Concluído |
+| EP02 | US14 | SCRUM-23 | 1 | 2 | Guilherme | RF25 | RN22 | CDU03 | CT14 | SCRUM-48 | Concluído |
 | EP03 | US15 | SCRUM-24 | 2 | 3 | Arthur | RF20 | RN10, RN20 | CDU04 | CT15 | — | Concluído |
 | EP03 | US16 | SCRUM-25 | 2 | 3 | Gabriel | RF21, RF22 | RN18, RN19 | CDU04 | CT15, CT16 | — | Concluído |
-| EP03 | US17 | SCRUM-26 | 2 | 3 | Lucas | RF23 | RN21, RN24 | CDU04 | CT15 | — | Concluído |
+| EP03 | US17 | SCRUM-26 | 2 | 3 | Guilherme | RF23 | RN21, RN24 | CDU04 | CT15 | — | Concluído |
 | EP03 | US18 | SCRUM-27 | 3 | 3 | Lucas | RF06, RF20, RNF06 | RN10, RN20, RN23 | CDU04 | CT17 | — | Concluído |
 | EP03 | US19 | SCRUM-28 | 3 | 3 | Arthur | RNF01, RNF02, RNF10 | — | — | CT18 | SCRUM-50 | Concluído |
 | EP03 | US20 | SCRUM-29 | 3 | 3 | Gabriel | RF09, RNF07, RNF08 | RN07, RN08 | CDU01, CDU02 | CT19 | SCRUM-47 | Concluído |
 | EP03 | US21 | SCRUM-30 | 5 | 3 | Gabriel | Todos | Todas | Todos | CT01–CT19 | — | Concluído |
 | EP04 | US22 | SCRUM-39 | 3 | 3 | Jaqueline | RF26, RF27, RNF13 | RN25, RN28 | Todos | CT20, CT21 | — | Concluído |
 | EP04 | US23 | SCRUM-40 | 3 | 3 | Jaqueline | RNF14, RNF01 | RN26 | Todos | CT22 | SCRUM-51 | Concluído |
-| EP04 | US24 | SCRUM-41 | 3 | 3 | Arthur | RNF13, RNF09 | RN27, RN28 | Todos | CT23 | — | Concluído |
+| EP04 | US24 | SCRUM-41 | 3 | 3 | Guilherme | RNF13, RNF09 | RN27, RN28 | Todos | CT23 | — | Concluído |
 | EP04 | US25 | SCRUM-42 | 2 | 3 | Arthur | RF28, RNF10 | RN25, RN28 | Todos | CT24 | — | Concluído |
 | EP04 | US26 | SCRUM-43 | 3 | 3 | Gabriel | RNF13–RNF15 | RN25–RN28 | Todos | CT20–CT24 | — | Concluído |
 
@@ -56,11 +56,15 @@ Rastreabilidade entre **épicos, histórias, requisitos, regras de negócio, cas
 
 | Responsável | Histórias | SP |
 |---|---|---|
-| Arthur | 7 | 15 |
-| Jaqueline Silva | 4 | 13 |
-| Lucas Diogo | 5 | 13 |
-| Vinicius Topgian | 6 | 14 |
-| Gabriel Santana | 4 | 13 |
+| Arthur | US01, US02, US15, US19, US25 (5) | 11 |
+| Jaqueline Silva | US03, US22, US23 (3) | 11 |
+| Lucas Diogo | US04, US07, US08, US18 (4) | 11 |
+| Vinicius Topgian | US09, US10, US11, US13 (4) | 11 |
+| Gabriel Santana | US16, US20, US21, US26 (4) | 13 |
+| Guilherme de Oliveira | US05, US06, US12, US14, US17, US24 (6) | 11 |
+| **Total** | **26** | **68** |
+
+> No Jira, o Guilherme de Oliveira aparece como `guilhermeolivsilva0506`.
 
 ## 4. Bugs → história → requisito
 
@@ -69,7 +73,7 @@ Rastreabilidade entre **épicos, histórias, requisitos, regras de negócio, cas
 | SCRUM-45 | Cadastro aceita data e valor inválidos | US03 | RF04, RN02, RN05, RN08 | Jaqueline | Concluído |
 | SCRUM-46 | Busca por descrição só com texto idêntico | US11 | RF17, RN16 | Vinicius | Concluído |
 | SCRUM-47 | Descrição interpretada como HTML | US20 | RNF07 | Lucas | Concluído |
-| SCRUM-48 | Consulta sem resultado não exibe mensagem | US14 | RF25, RN22 | Vinicius | Concluído |
+| SCRUM-48 | Consulta sem resultado não exibe mensagem | US14 | RF25, RN22 | Guilherme | Concluído |
 | SCRUM-49 | Filtro de dia não reconhece "2" e "02" | US09 | RF15, RN14 | Arthur | Concluído |
 | SCRUM-50 | Páginas sem meta viewport | US19 | RNF02 | Arthur | Concluído |
 | SCRUM-51 | Baixo contraste no modal de exclusão | US23 | RNF14, RN26 | Jaqueline | Concluído |
