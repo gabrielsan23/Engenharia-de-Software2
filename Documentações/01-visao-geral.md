@@ -35,14 +35,16 @@ O **Aplicativo de Orçamento Pessoal Mensal** é uma aplicação web que permite
 Backend, banco de dados remoto, contas de usuário, sincronização entre dispositivos e qualquer funcionalidade além das listadas.
 
 ## Equipe
-
+ 
 | Membro | Foco | Histórias | SP |
 |---|---|---|---|
-| Arthur Paulo | Cadastro, exclusão, responsividade, paleta e ícones | US01, US02, US06, US15, US19, US24, US25 | 15 |
-| Jaqueline Silva | Validação, mensagens, contraste e cor | US03, US05, US22, US23 | 13 |
-| Lucas Diogo | Armazenamento, consulta e integridade | US04, US07, US08, US17, US18 | 13 |
-| Vinicius Topgian | Filtros | US09 a US14 | 14 |
+| Arthur Paulo | Cadastro, exclusão, responsividade e ícones | US01, US02, US15, US19, US25 | 11 |
+| Jaqueline Silva | Validação, contraste e cor | US03, US22, US23 | 11 |
+| Lucas Diogo | Armazenamento, consulta e integridade | US04, US07, US08, US18 | 11 |
+| Vinicius Topgian | Filtros | US09, US10, US11, US13 | 11 |
 | Gabriel Santana | Confirmação, tratamento de erros e testes | US16, US20, US21, US26 | 13 |
+| Guilherme de Oliveira | Mensagens, limpeza do formulário, filtro de valor, resultado vazio, atualização da listagem e paleta | US05, US06, US12, US14, US17, US24 | 11 |
+| **Total** | | **26 histórias** | **68** |
 
 ## Planejamento em 3 sprints
 
