@@ -72,7 +72,7 @@ orcamento-pessoal/
  
 | Membro | Foco | Histórias | SP |
 |---|---|---|---|
-| Arthur | Cadastro, exclusão, responsividade e ícones | US01, US02, US15, US19, US25 | 11 |
+| Arthur Paulo | Cadastro, exclusão, responsividade e ícones | US01, US02, US15, US19, US25 | 11 |
 | Jaqueline Silva | Validação, contraste e cor | US03, US22, US23 | 11 |
 | Lucas Diogo | Armazenamento, consulta e integridade | US04, US07, US08, US18 | 11 |
 | Vinicius Topgian | Filtros | US09, US10, US11, US13 | 11 |
