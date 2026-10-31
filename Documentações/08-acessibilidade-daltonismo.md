@@ -2,7 +2,7 @@
 
 Objetivo: garantir que pessoas com daltonismo (protanopia, deuteranopia, tritanopia e acromatopsia) usem o cadastro, a consulta e a exclusão de despesas **sem depender apenas da cor** para entender mensagens, estados e ações.
 
-**Versão:** 2.0 — revisão de 30/10/2026 · **Status do documento:** Concluído (Jira: SCRUM-44)
+**Versão:** 2.1 — revisão de 30/10/2026 · **Status do documento:** Concluído (Jira: SCRUM-44)
 **Épico:** EP04 (SCRUM-38) — Concluído · **Sprint:** Sprint 3 — Qualidade · **Total:** 14 SP
 **Complementa:** [Requisitos](02-requisitos.md) (continua a numeração de RF, RNF e RN).
 
@@ -50,7 +50,7 @@ Objetivo: garantir que pessoas com daltonismo (protanopia, deuteranopia, tritano
 |---|---|---|---|---|---|
 | US22 | SCRUM-39 | Não depender apenas de cor para transmitir informação | 3 | Jaqueline | Concluído |
 | US23 | SCRUM-40 | Garantir contraste mínimo entre texto e fundo | 3 | Jaqueline | Concluído |
-| US24 | SCRUM-41 | Adotar paleta de cores segura para daltonismo | 3 | Arthur | Concluído |
+| US24 | SCRUM-41 | Adotar paleta de cores segura para daltonismo | 3 | Guilherme de Oliveira | Concluído |
 | US25 | SCRUM-42 | Adicionar ícones e rótulos de apoio às ações e mensagens | 2 | Arthur | Concluído |
 | US26 | SCRUM-43 | Testar acessibilidade com simuladores de daltonismo | 3 | Gabriel | Concluído |
 | | | **Total** | **14** | | |
