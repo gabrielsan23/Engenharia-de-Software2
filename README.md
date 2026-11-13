@@ -1,4 +1,5 @@
 # 💰 Orçamento Pessoal
+## Link Jira: https://gabrielsan4717.atlassian.net/jira/software/projects/SCRUM/list/VUIop88?jql=project%20%3D%20SCRUM%20ORDER%20BY%20cf%5B10019%5D%20ASC
 
 Aplicação web desenvolvida por: Gabriel Santana, Arthur Paulo, Jaqueline Neves, Lucas Diogo, Vinícius Marques e Guilherme de Oliveira  para realizar o cadastro, a consulta e o gerenciamento de despesas pessoais, permitindo ao usuário organizar seus gastos de maneira simples e prática.
 
